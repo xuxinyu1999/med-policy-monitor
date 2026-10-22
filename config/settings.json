@@ -1,0 +1,17 @@
+{
+  "check_time": "08:30",
+  "request_interval_seconds": 3,
+  "request_timeout_seconds": 20,
+  "max_retries": 2,
+  "report_days": 7,
+  "open_report_after_check": false,
+  "desktop_toast": true,
+  "keyword_filter": [],
+  "push": {
+    "channel": "none",
+    "pushplus_token": "",
+    "serverchan_sendkey": "",
+    "wecom_webhook": ""
+  },
+  "push_note": "channel 可选: none(不推送,只本地记录) / pushplus / serverchan / wecom。填入对应 token 后改为对应值即可，详见 README。"
+}
